@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "My Gatsby Site",
+    title: "Gatsby starter with TailwindCSS and React Helmet",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-react-helmet"],
 };
